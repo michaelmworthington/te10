@@ -18,3 +18,8 @@ pypi | https://pypi.org/project/js.jquery/#files
 rubygem | https://rubygems.org/gems/jquery-cdn/versions/3.3.1
 yum-epel | https://fedoraproject.org/wiki/Changes/jQuery (http://mirror.pnl.gov/epel/7Server/x86_64/Packages/j/js-jquery-2.2.4-3.el7.noarch.rpm)
 
+# Building & Scanning & Exploring the contents
+
+* `docker build -t <username>/te10:<version> .`
+* `docker save -o te10.tar <username>/te10:<version>`
+* `docker run --rm -it <username>/te10:<version> bash`
